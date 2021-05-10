@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [Suite]">
+  <test parallel="classes" name="DelpiTest(failed)">
+    <classes>
+      <class name="LowesHomeDepot.LowesHomeDepotBuild.lowesTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="openLowes"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- LowesHomeDepot.LowesHomeDepotBuild.lowesTest -->
+      <class name="LowesHomeDepot.LowesHomeDepotBuild.NewTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- LowesHomeDepot.LowesHomeDepotBuild.NewTest -->
+    </classes>
+  </test> <!-- DelpiTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
